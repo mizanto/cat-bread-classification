@@ -8,7 +8,8 @@ The dataset used for this project is the [Cat Breeds Dataset](https://www.kaggle
 
 ### Preparation
 1. Download folders with images from https://drive.google.com/drive/folders/1X1fpKq9ykybmHSm7Rh8vWxY3xlw9JKzc?usp=drive_link
-2. Copy folders to `dataset/`
+2. Unzip folders from `dataset.zip`
+3. Copy folders to `dataset/`
 
 Now you should have the following structure:
 ```
@@ -20,6 +21,9 @@ dataset/
     lite/
         ...
 ```
+
+### Model
+Models are to big to upload to GitHub. You can download it from https://drive.google.com/drive/folders/1lE-x7aqGtZucwp4xJPXLX6e2YlYKEszl?usp=drive_link
 
 ### Key Steps
 * Data Exploration: Initial dataset analysis using Jupyter Notebook (exploration.ipynb).
