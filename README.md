@@ -68,7 +68,7 @@ This process builds a Docker image compatible with AWS Lambda, uploads it to AWS
 You can test the deployed model endpoint using the following curl command:
 
 ```bash
-curl -X POST https://z181ex0uw6.execute-api.eu-central-1.amazonaws.com/prod/predict \
+curl -X POST [your-api-endpoint] \
     -H "Content-Type: application/json" \
     -d '{"url":"https://www.katdootje.nl/wp-content/uploads/Orange-Maine-Coon.webp"}'
 ```
